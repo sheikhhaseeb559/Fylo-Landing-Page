@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+@media only screen and (max-width: 480px) {
+
+    body,
+    html {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+    }
+
+    .header {
+        height: 800px;
+    }
+
+    .header img {
+        width: 100px;
+        position: relative;
+        top: 20px;
+    }
+
+    .header a {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        text-decoration: none;
+        color: black;
+        position: relative;
+        top: 10px;
+        left: 90px;
+        padding: 8px;
+    }
+
+    #illustration {
+        width: 380px;
+        height: 320px;
+        position: relative;
+        top: 80px;
+    }
+
+    .header h1 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        color: hsl(242, 88%, 7%);
+        position: relative;
+        top: 80px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .header p {
+        text-align: center;
+        position: relative;
+        top: 80px;
+        font-size: 16px;
+        color: hsl(242, 88%, 7%);
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+    .header input {
+        position: relative;
+        top: 80px;
+        width: 265px;
+        height: 40px;
+        left: 60px;
+        border-radius: 8px;
+    }
+
+    .header button {
+        background-color: hsl(224, 93%, 58%);
+        border-style: none;
+        position: relative;
+        top: 90px;
+        left: 60px;
+        height: 47px;
+        width: 272px;
+        border-radius: 8px;
+        cursor: pointer;
+        color: white;
+    }
+
+    .middle {
+        height: 800px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .middle {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 1000px;
+        background-color: #F8F8FE;
+        position: relative;
+        top: -5px;
+    }
+
+    .middle img {
+        height: 320px;
+        width: 380px;
+        position: relative;
+        top: 40px;
+    }
+
+    .middle h1 {
+        text-align: center;
+        color: hsl(242, 88%, 7%);
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        position: relative;
+        top: 90px;
+    }
+
+    .middle p {
+        text-align: left;
+        color: hsl(0, 0%, 75%);
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        margin-left: 20px;
+        margin-right: 20px;
+        position: relative;
+        top: 90px;
+    }
+
+    .middle button {
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        background-color: hsl(240, 75%, 98%);
+        color: hsl(170, 45%, 43%);
+        position: relative;
+        top: 110px;
+        left: 120px;
+        border: none;
+        border-bottom: 1px solid hsl(170, 45%, 43%);
+        font-size: 16px;
+        cursor: pointer;
+
+    }
+
+    .middle button img {
+        width: 25px;
+        height: 25px;
+        position: relative;
+        top: 8px;
+        left: 1px;
+    }
+
+    .testinomial {
+        background-color: white;
+        height: 180px;
+        width: 285px;
+        position: relative;
+        top: 150px;
+        left: 45px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 gray;
+        padding: 0;
+        margin: 0;
+    }
+
+    .testinomial img {
+        height: 18px;
+        width: 18px;
+        position: relative;
+        top: 20px;
+
+    }
+
+    .testinomial p {
+        font-size: 13px;
+        text-align: left;
+        color: black;
+        position: relative;
+        top: -2.9px;
+    }
+
+    .avatar {
+        background-image: url(images/avatar-testimonial.jpg);
+        background-size: cover;
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        position: relative;
+        left: 20px;
+        top: -10px;
+    }
+
+    .testinomial h4 {
+        font-family: 'Raleway', sans-serif;
+        position: relative;
+        top: -70px;
+        left: 80px;
+    }
+
+    #roll {
+        position: relative;
+        top: -90px;
+        left: 60px;
+    }
+
+    .earlyaccess {
+        background-color: hsl(238, 22%, 44%);
+        width: 100%;
+        height: 390px;
+        color: white;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: -25px;
+    }
+
+    .earlyaccess h2 {
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        position: relative;
+        top: 80px;
+    }
+
+    .earlyaccess p {
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        position: relative;
+        top: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+    .earlyaccess input {
+        position: relative;
+        top: 80px;
+        width: 265px;
+        height: 40px;
+        left: 73px;
+        border: none;
+        border-style: none;
+    }
+
+    .earlyaccess button {
+        background-color: hsl(224, 93%, 58%);
+        border-style: none;
+        position: relative;
+        top: 90px;
+        left: 71px;
+        height: 47px;
+        width: 272px;
+        cursor: pointer;
+        color: white;
+    }
+
+    .footer {
+        background-color: hsl(243, 87%, 12%);
+        width: 100%;
+        height: 500px;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: -25px;
+    }
+
+    #footerlogo {
+        position: relative;
+        left: 25px;
+        top: 25px;
+    }
+
+    #phone {
+        position: relative;
+        left: -140px;
+        top: 60px;
+    }
+
+    #email {
+        position: relative;
+        left: -162px;
+        top: 90px;
+    }
+
+    .footer p {
+        color: hsl(240, 75%, 98%);
+        position: relative;
+        top: 20px;
+        left: 70px;
+        margin-left: 1px;
+        margin-right: 80px;
+    }
+
+    .about {
+        margin-left: 1px;
+        margin-right: 120px;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .about p {
+        color: hsl(240, 75%, 98%);
+        position: relative;
+        left: 32px;
+        top: 50px;
+
+    }
+
+    .contact {
+        margin: 0;
+        padding: 0;
+    }
+
+    .contact p {
+        margin-left: 1px;
+        margin-right: 100px;
+        color: hsl(240, 75%, 98%);
+        position: relative;
+        left: 32px;
+        top: 70px;
+    }
+}
+
+
+@media only screen and (min-width: 481px) {
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .header img {
+        position: relative;
+        left: 2%;
+        top: 20px;
+    }
+
+    .header a {
+        position: relative;
+        left: 60%;
+        top: 2%;
+        padding-left: 4%;
+        text-decoration: none;
+        color: rgb(19, 18, 18);
+    }
+
+    .header1 {
+        position: relative;
+        bottom: -100px;
+    }
+
+    #illustration {
+        width: 50%;
+        height: 60%;
+        position: relative;
+        top: 80%;
+        left: 45%;
+    }
+
+    .header h1 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        color: hsl(242, 88%, 7%);
+        text-align: left;
+        margin-left: 1px;
+        margin-right: 60%;
+        position: relative;
+        bottom: 400px;
+        left: 20px;
+        line-height: 55px;
+    }
+
+    .header p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        margin-left: 1px;
+        margin-right: 60%;
+        position: relative;
+        left: 20px;
+        bottom: 400px;
+    }
+
+    .header input {
+        width: 300px;
+        height: 35px;
+        position: relative;
+        bottom: 400px;
+        left: 20px;
+    }
+
+    .header button {
+        font-family: 'Open Sans', sans-serif;
+        width: 170px;
+        height: 40px;
+        position: relative;
+        left: 20px;
+        bottom: 398px;
+        background-color: hsl(224, 93%, 58%);
+        color: white;
+        border-style: none;
+        cursor: pointer;
+        transition: ease 1s;
+    }
+
+    .header button:hover{
+        background-color: rgb(111, 205, 236);
+    }
+
+    #middleimage{
+        max-width: 100%;
+    }
+
+    
+    .middle {
+        background-color: #F8F8FE;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .middle img{
+        height: 40%;
+        width: 40%;
+        position: relative;
+        left: 55%;
+        top: 80px;
+    }
+
+    .middle h1{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        position: relative;
+        left: 2%;
+        bottom: 350px;
+        margin-left: 1px;
+        margin-right: 40%;
+    }
+
+    .middle p{
+        position: relative;
+        left: 2%;
+        bottom: 350px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        margin-left: 1px;
+        margin-right: 56%;
+        line-height: 25px;
+    }
+
+    .middle button{
+        color: hsl(170, 45%, 43%);
+        border-style: none;
+        background-color: inherit;
+        position: relative;
+        left: 2%;
+        bottom: 350px;
+        font-size: 16px;
+        cursor: pointer;
+        border-bottom: 1px solid hsl(170, 45%, 43%);
+        line-height: 30px;
+    }
+
+    .middle button img{
+        height: 30px;
+        width: 30px;
+        position: relative;
+        top: 11px;
+        left: -3px;
+        cursor: pointer;
+    }
+
+    .testinomial{
+        height: 220px;
+        width: 380px;
+        border-radius: 18px;
+        background-color: white;
+        position: relative;
+        left: 2%;
+        top: -300px;
+        box-shadow: 0 0 5px 0;
+    }
+
+    .testinomial img{
+        position: relative;
+        top: 20px;
+        left: 20px;
+        height: 20px;
+        width: 20px;
+    }
+
+    .testinomial p{
+        position: relative;
+        top: 2px;
+        left: 4%;
+        margin-left: 1px;
+        margin-right: 7%;
+    }
+
+    .avatar{
+        background-image: url(images/avatar-testimonial.jpg);
+        background-size: cover;
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        position: relative;
+        left: 20px;
+        top: -5px;
+    }
+
+    .testinomial h4{
+        position: relative;
+        bottom: 28%;
+        left: 23%;
+        margin-left: 1px;
+        margin-right: 60%;
+    }
+
+    #roll{
+        position: relative;
+        top: -38%;
+        left: 22.5%;
+        margin-left: 1px;
+        margin-right: 50%;
+    }
+
+    .earlyaccess{
+        height: 400px;
+        background-color: hsl(238, 22%, 44%);
+        position: relative;
+        bottom: 200px;
+        color: white;
+    }
+
+    .earlyaccess h2{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        position:relative;
+        left: 5%;
+        top: 30%;
+        margin-left: 1px;
+        margin-right: 60%;
+    }
+
+    .earlyaccess p{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        position: relative;
+        left: 5%;
+        top: 30%;
+        margin-left: 1px;
+        margin-right: 62%;
+    }
+
+    .earlyaccess input{
+        width: 400px;
+        height: 35px;
+        position: relative;
+        left: 60%;
+    }
+
+    .earlyaccess button{
+        font-family: 'Open Sans', sans-serif;
+        width: 170px;
+        height: 40px;
+        position: relative;
+        left: 29.5%;
+        top: 20%;
+        background-color: hsl(224, 93%, 58%);
+        color: white;
+        border-style: none;
+        cursor: pointer;
+        border-radius: 2px;
+        transition: ease 1s;
+    }
+
+    .earlyaccess button:hover{
+        background-color: rgb(111, 205, 236);
+    }
+
+    .footer{
+        background-color: hsl(243, 87%, 12%);
+        height: 350px;
+        position: relative;
+        top: -35%;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .footer svg{
+        position: relative;
+        top: 15%;
+        left: 5%;
+    }
+
+    #phone{
+        position: relative;
+        top: 25%;
+        left: -8%;
+    }
+
+    #email{
+        position: relative;
+        top: 35%;
+        left: -9.7%;
+    }
+
+    .footer p{
+        position: relative;
+        top: 13%;
+        left: 8%;
+        padding: 0%;
+        margin-right: 40%;
+    }
+
+    .about{
+        position: relative;
+        left: 30%;
+        bottom: 5%;
+        width: 200px;
+    }
+
+    .contact{
+        position: relative;
+        left: 60%;
+        bottom: 47%;
+        width: 200px;
+    }
+}
